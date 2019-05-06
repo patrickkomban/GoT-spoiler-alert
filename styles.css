@@ -1,0 +1,32 @@
+body {
+    min-width: 250px;
+    min-height: 140px;
+    max-width: 260px;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/dracarys.jpg");
+    background-repeat: no-repeat;
+}
+
+.button {
+    font-family: fantasy;
+    font-size: 14px;
+    color: #2c456d;
+    background-color: orange;
+    border-radius: 12px;
+    border: 2px solid #312359;
+    position: fixed;
+    left: 100px;
+    top: 45px;
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.45),0 17px 50px 0 rgba(0,0,0,0.60);
+}
+
+div {
+    position: fixed;
+    left: 30px;
+    font-family: fantasy;
+    font-size: 16px;
+    color: #312359;
+    text-align: center;
+}

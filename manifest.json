@@ -1,0 +1,24 @@
+{
+    "name" : "GoT Spoiler Alert",
+    "version" : "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "GoT Spoiler Alert"
+    },
+    "permissions": ["tabs", "<all_urls>"],
+    "icons": {
+      "48": "images/GoTicon48.png",
+      "128": "images/GoTicon128.png"
+    },
+    "web_accessible_resources": [
+        "images/dracarys.jpg"
+    ]
+
+}
